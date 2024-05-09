@@ -4,30 +4,42 @@
     margin: 0;
 }
 body{
-    background-image:url(../img/bg2.jpg);
+    background-image:url(/img/bg2.jpg);
+    background-attachment: fixed;
 }
 .contenedor{
     margin: auto;
     width: 50%;
-    background-color: rgba(224, 224, 223, 0.9);
+    background-color: rgba(210, 216, 216, 0.9);
     border-radius: 15px;
 }
 .name{
+    color: #195b63;
     border-radius: 15px 15px 0 0;
     text-align: center;
-    
     width: auto;
     padding: 30px;
 }
-nav ul{
-    padding: 0 40px 0 40px;
+nav .navbar{
+    padding: 0 40px 40px 40px;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-radius: 15px;
 }
-.contenedor1{
-    
-    padding-bottom: 90%;
+.item{
+    text-decoration: none;
+    color: #195b63;
+}
+.box{
+    margin: 5px 50px 5px 50px;
+   /* border: 2px solid red;*/
+}
+
+h2{
+    color: #195b63;
+    padding: 10px 0px;
 }
 
 .contact_icons ul{
